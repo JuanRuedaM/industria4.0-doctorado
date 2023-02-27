@@ -1,0 +1,18 @@
+https://www.rabbitmq.com/tutorials/tutorial-three-javascript.html
+https://github.com/rabbitmq/rabbitmq-tutorials/blob/main/javascript-nodejs/src/receive_logs.js
+
+1. A producer is a user application that sends messages.
+2. A queue is a buffer that stores messages.
+3. A consumer is a user application that receives messages.
+
+3. 
+publisher ---> exchange --> queue --> consumer
+
+4 types of exchange 
+direct, topic, headers and fanout
+
+fanout
+it just broadcasts all the messages it receives to all the queues it knows
+
+exclusive
+When the connection that declared it closes, the queue will be deleted because it is declared as exclusive
